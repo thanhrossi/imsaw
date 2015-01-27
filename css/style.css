@@ -1,0 +1,115 @@
+/* Color: xanh lục: #00a455, xanh lam: #1b4db0; */
+.text-center {
+	text-align: center;
+}
+nav{
+	background-color: #00a455;
+	height: 32px;
+	line-height: 32px;
+}
+
+nav ul li:hover, nav ul li.active {
+	background-color: #27C378;
+}
+.imsaw img.logo {
+	display: block;
+	margin: auto;
+	width: 129px;
+}
+.imsaw h3 {
+	font-size: 20px;
+}
+input#input-data {
+	border: 1px solid;
+	height: 34px;
+	margin: 10px 0 0 0;
+}
+.search-btn {
+	margin-top: 10px;
+}
+
+@media only screen and (min-width: 992px){
+	nav .brand-logo{
+		padding-left: 210px;
+	} 
+}
+/*End header*/
+
+/*content*/
+.intro-box{
+	width: 100%;
+	/*background: #e3f2fd;*/
+	color: #00a455;
+	padding: 8em 0;
+}
+.s-form .input-field label{
+	padding: 4px 20px;
+}
+.sub-intro{
+	margin: 50px auto;
+}
+.sub-intro i {
+	font-size: 46px;
+}
+/*Result boxx*/
+.row-intro img{
+	width: 100px;
+	margin: 27px 93px;
+}
+.result-box{
+	padding: 3em 0;
+}
+.result-container {
+	width: 100%;
+}
+.left-content{
+	/*border-left: 1px solid #C0D3CA;*/
+}
+.left-block{
+	padding: 10px 20px;
+	border: 1px solid rgb(33, 150, 243);
+	border-radius: 10px;
+	margin-bottom: 25px;
+}
+.left-block h5 {
+	padding: 10px 20px;
+	background: #2196F3;
+	margin: -10px -21px;
+	border-radius: 10px 10px 0 0;
+	color: #fff;
+}
+.left-block ul.cate{
+	height: 135px;
+	overflow-y: scroll;
+}
+.left-block .bag{
+	margin: 16px 20px 10px;
+	background: #1b4db0;
+	color: #fff;
+	display: block;
+	padding: 4px 8px;
+	border-radius: 10px;
+}
+.left-block .bag:hover{
+	background: #436FC7;
+}
+.right-content table i{
+	font-size: 21px;
+}
+
+ul.link li{
+	
+}
+ul.link li.active a{
+	text-decoration: underline;
+	font-style: italic;
+	font-weight: bold;
+	background: rgb(169, 215, 193);
+}
+footer{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
